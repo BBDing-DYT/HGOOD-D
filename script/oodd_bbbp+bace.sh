@@ -1,0 +1,2 @@
+python main.py -exp_type oodd -DS_pair ogbg-molbbbp+ogbg-molbace -lr 0.001 -batch_size 400 -num_epoch 800 -alpha 0.2 -HPC
+# loss = weight_IB * loss_IB.mean() + weight_p * loss_p.mean() + args.reg_lambda * reg.mean() + loss_IB3.mean() * 0.001 - loss_IB2.mean() * 0.001

@@ -1,0 +1,2 @@
+python main.py -exp_type oodd -DS_pair PTC_MR+MUTAG -num_epoch 400 -batch_size 103 -cluster_num 8,2 -alpha 0.8 -HPC
+#loss = weight_IB * loss_IB.mean() + weight_p * loss_p.mean() + args.reg_lambda * reg.mean() + loss_IB3.mean()*0.01 - loss_IB2.mean()*0.01
